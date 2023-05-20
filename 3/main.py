@@ -15,3 +15,7 @@ while True:
                 flag = func(i, flag)
                 mas.append(s)
                 fl.append(flag)
+            if flag == 0:
+                for i in range(len(mas)):
+                    if fl[i] == 1:
+                        g = '(нечетное)'
