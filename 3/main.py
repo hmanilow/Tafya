@@ -19,3 +19,12 @@ while True:
                 for i in range(len(mas)):
                     if fl[i] == 1:
                         g = '(нечетное)'
+            else:
+                        g = '(четное)'
+                    r="Состояние q" + str(i) + " = "+ str(fl[i]) + g
+                    print(r, "по символу", n[i])
+                print("да")
+            else:
+                print("нет")
+        else:
+            print("невозможная цепочка")
