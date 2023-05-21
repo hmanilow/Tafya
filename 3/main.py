@@ -1,5 +1,8 @@
-while True:
+def func(el, f):
+    if el == 'a' and f ==0:
+        f = 1
 
+while True:
     n = input("Введите строку: ")
     mas = []
     fl = []
