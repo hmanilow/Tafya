@@ -1,6 +1,9 @@
 def func(el, f):
     if el == 'a' and f ==0:
         f = 1
+    elif el == 'a' and f == 1:
+        f = 0
+    return f 
 
 while True:
     n = input("Введите строку: ")
